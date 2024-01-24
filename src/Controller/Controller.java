@@ -22,7 +22,7 @@ public class Controller {
         return true;
     }
     public void messageForUser(){
-        System.out.println("Введите выражение которое нужно посчитать, для выхода напишите: -1 ");
+        System.out.println("Введите выражение которое нужно посчитать (пример: i^2 * i^3) , для выхода напишите: -1 ");
     }
     public void chooseAction(){
         String sign = CheckSign.getSign(uInput.getInput());
